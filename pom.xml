@@ -26,6 +26,7 @@
         <module>rest</module>
         <module>services</module>
         <module>social</module>
+        <module>hateoas</module>
     </modules>
 
     <dependencies>

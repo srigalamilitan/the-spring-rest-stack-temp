@@ -7,7 +7,7 @@ import java.util.Collection;
 /**
  * Created by eric on 7/6/15.
  */
-public interface CRMService {
+public interface CrmService {
 
     Collection<Customer> search(long userId, String token);
     ProfilePhoto readUserProfilePhoto(long userId);

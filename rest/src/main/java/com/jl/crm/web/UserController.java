@@ -1,6 +1,6 @@
 package com.jl.crm.web;
 
-import com.jl.crm.services.CRMService;
+import com.jl.crm.services.CrmService;
 import com.jl.crm.services.Customer;
 import com.jl.crm.services.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,10 +18,10 @@ import java.util.Optional;
 @RequestMapping(value = "/users")
 public class UserController {
 
-    private CRMService crmService;
+    private CrmService crmService;
 
     @Autowired
-    public UserController(CRMService crmService) {
+    public UserController(CrmService crmService) {
         this.crmService = crmService;
     }
 
